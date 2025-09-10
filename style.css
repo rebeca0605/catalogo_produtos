@@ -1,0 +1,142 @@
+:root {
+    --primary-color: #FFE600;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    flex-direction: column;
+    display: flex;
+    justify-items: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    justify-items: center;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+}
+
+.top img{
+    width: 330px;
+    height: 36px;
+}
+
+.container-menu{
+    width: 1177px;
+    height: 100px;
+    justify-content: center;
+}
+
+.container-logo{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-logo img{
+    width: 30px;
+    height: 30px;
+}
+
+.container-logo h1{
+    font-size: 20px;
+}
+
+.input{
+    background-image: url('./img/Person-search.png');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+    background-size: 22px;
+    border: 1px solid var(--borda-color);
+    padding-left: 20px;
+    width: 600px;
+    height: 35px;
+    font-size: 15px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+}
+
+.cep{
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.cep img{
+    width: 20px;
+    height: 25px;
+}
+
+.cep span{
+    font-weight: bold;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    color: #ad9c00;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.menu li{
+    transition: color 0.3s ease;
+}
+
+.menu li:hover {
+    color: #ffffff;
+}
+
+.menu-conta ul{
+    display: flex;
+    flex-direction: row;
+    color: #ad9c00;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.menu-conta li{
+    transition: color 0.3s ease;
+}
+
+.menu-conta li:hover {
+    color: #ffffff;
+}
+
+.menu-conta img{
+    width: 25px;
+    height: 25px;
+}
+
+footer{
+    background-color: var(--primary-color);
+}
